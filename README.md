@@ -1,9 +1,13 @@
 # StrataVision™ AI Subsurface Intelligence Platform
 
-<div align="center">
-  <img src="docs/assets/stratavision-logo.svg" alt="StrataVision AI logo" width="760" />
-  <p><em>Solo Cloud-Integrated Well Data + ArcGIS Spatial Framework</em></p>
-</div>
+<p align="center">
+  <picture>
+    <source media="(max-width: 768px)" srcset="docs/assets/stratavision-logo-compact.svg">
+    <img src="docs/assets/stratavision-logo.svg" alt="StrataVision AI logo" width="860">
+  </picture>
+</p>
+
+<p align="center"><em>Solo Cloud-Integrated Well Data + ArcGIS Spatial Framework</em></p>
 
 StrataVision AI is a map-first subsurface intelligence platform that integrates geology grids, well, completion, and production data from Solo Cloud with enterprise ArcGIS spatial layers. The system provides AI-driven interpretation, spatial analytics, and sweet spot identification to help geology and reservoir teams optimize drilling and completion decisions.
 
