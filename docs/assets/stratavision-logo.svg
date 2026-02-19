@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">StrataVision AI Logo</title>
+  <desc id="desc">Layered geological icon with StrataVision AI wordmark.</desc>
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#29A3FF"/>
+      <stop offset="100%" stop-color="#0059C9"/>
+    </linearGradient>
+    <linearGradient id="layerGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8BC34A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="layerGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFC107"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+    <linearGradient id="layerRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EF5350"/>
+      <stop offset="100%" stop-color="#C62828"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0B1A2B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(40 34)" filter="url(#softShadow)">
+    <path d="M28 122 L148 32 L230 142 L112 236 Z" fill="#19324F" stroke="#DCE8F8" stroke-width="3"/>
+    <path d="M28 122 C72 94, 120 100, 162 84 C194 72, 216 76, 230 88 L210 108 C197 98, 178 98, 156 108 C112 128, 78 126, 36 144 Z" fill="url(#layerGreen)"/>
+    <path d="M36 144 C78 126, 112 128, 156 108 C178 98, 197 98, 210 108 L194 126 C180 118, 162 122, 144 130 C103 148, 74 150, 44 164 Z" fill="url(#layerGold)"/>
+    <path d="M44 164 C74 150, 103 148, 144 130 C162 122, 180 118, 194 126 L176 144 C162 138, 148 140, 132 148 C98 166, 76 168, 50 180 Z" fill="url(#layerRed)"/>
+    <path d="M50 180 L132 148 C148 140, 162 138, 176 144 L154 160 C142 158, 128 162, 114 168 C88 180, 70 186, 56 190 Z" fill="#1565C0"/>
+
+    <ellipse cx="126" cy="122" rx="128" ry="38" fill="none" stroke="#EAF2FF" stroke-width="14"/>
+    <ellipse cx="126" cy="122" rx="128" ry="38" fill="none" stroke="#2C3E55" stroke-width="6"/>
+  </g>
+
+  <g transform="translate(330 96)">
+    <text x="0" y="84" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="88" font-weight="700" fill="#0E243B">Strata</text>
+    <text x="250" y="84" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="88" font-weight="700" fill="url(#blueGradient)">Vision</text>
+    <text x="560" y="84" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="74" font-weight="600" fill="#11263C">AI</text>
+  </g>
+</svg>
